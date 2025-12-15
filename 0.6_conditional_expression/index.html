@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // if-else condition => if condition inside( ) true then body of if will be executed 
+        let a = prompt("Hey whats your age?")
+        a = Number.parseInt(a)
+        if(a<0){
+            alert("This is a invalid age");
+        }
+        else if(a<9){
+            alert("You are a kid and you cannot even think to driving");
+        }
+        else if(a<18 && a>= 9){
+            alert("You are a kid and you can think to driving after 18");
+        }
+        else{
+            alert("you can now drive you are an above 18");
+        }
+
+        console.log("done");
+        
+    </script>
+</body>
+</html>
