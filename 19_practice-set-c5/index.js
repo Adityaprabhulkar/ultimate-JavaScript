@@ -1,0 +1,54 @@
+//Chapter 5 practice set
+
+// //Practice Problem 1
+
+// let arr = [1,2,3,4,5,6,7,8,83]
+// let a = prompt("enter a number")
+// a = Number.parseInt(a);
+// arr.push(a);
+// console.log(arr);
+
+
+//Practice Problem 2
+
+// let arr = [1,2,3,4,5,6,7,8,83]
+// let a;
+// do{
+//      a = prompt("enter a number")
+//     a = Number.parseInt(a);
+//     arr.push(a);
+//     console.log(arr);
+// } while(a!=0);
+// console.log(arr);
+
+//Practice Problem 3
+
+// let arr = [1,2,3,4,5,6,7,8,83,670, 50]
+
+// let n = arr.filter((x) => {
+//     return x%10 == 0
+// })
+
+// console.log(n);
+
+// //Practice Problem 3
+
+//  let arr = [1,2,3,4,5,6,7,8,]
+
+// let n = arr.map((x) => {
+//     return x*x 
+// })
+
+// console.log(n);
+
+//Practice Problem 5
+
+ let arr = [1,2,3,4,5]
+
+let n = arr.reduce((x1, x2) => {
+    return x1*x2 
+})
+
+console.log(n);
+
+
